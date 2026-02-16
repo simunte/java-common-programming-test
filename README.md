@@ -1,4 +1,4 @@
-# 💻 Java Programming Test Examples
+# 💻 5 Common Java Programming Test Examples
 
 This repository contains examples of programming test problems implemented using Java.  
 These exercises focus on logical thinking, problem-solving skills, and basic algorithm techniques.
@@ -84,30 +84,52 @@ Total toys purchased: **4**
 
 ## 3. Fibonacci
 ### 📌 Problem Description
+The Fibonacci sequence is a series of numbers where each number is the sum of the two numbers before it.
+This Java program works with Fibonacci numbers in three different ways:
+1. Checks if the input number is a Fibonacci number 
+2. Print the series of the Fibonacci based on input
+3. Create function to calculates a Fibonacci number using iteration 
+4. Create function to calculates a Fibonacci number using recursion
 
 ---
 
 ### 📥 Input
+- Fibonacci: 13
+
 ### 📤 Output
+- 13: is Fibonacci
+- series: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233]
+- Fibonacci of 13: 233
+- Fibonacci Rec of 13: 133
 
 ---
 
 ## 4. Matching Socks
 ### 📌 Problem Description
+This program counts how many pairs (matches) exist in an integer array.
 
 ---
 
 ### 📥 Input
+- array: {1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5}
 ### 📤 Output
+- Total: 6 Match
 
 ---
 
-## 3. Palindrome
+## 5. Palindrome
 ### 📌 Problem Description
+This java program check whether an input string is palindrome or not.
+String is palindrome only if the string return the same string when reversed.
 
 ---
 
 ### 📥 Input
+- Madam
+- Nababan
+- Test
 ### 📤 Output
-
+- Madam: true
+- Nababan: true
+- Test: false
 ---

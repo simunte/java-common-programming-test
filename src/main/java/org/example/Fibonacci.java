@@ -23,7 +23,7 @@ public class Fibonacci {
             fibonacci[idx + 1] =  curr;
         }
 
-        System.out.println("Deret : " + Arrays.toString(fibonacci));
+        System.out.println("Series: " + Arrays.toString(fibonacci));
         return curr;
     }
 
