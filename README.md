@@ -133,3 +133,37 @@ String is palindrome only if the string return the same string when reversed.
 - Nababan: true
 - Test: false
 ---
+
+## 6. Valley and Mountain Count
+### 📌 Problem Description
+This java program check how many mountains and valleys number that walked through.
+
+case e.g:
+Felix is a hiker. He carefully records every hike he makes.
+During his last hike, he took n steps. For each step, he recorded whether it was:
+- U → an uphill step (height increases by 1)
+- D → a downhill step (height decreases by 1)
+
+Felix always:
+- Starts at height 0 (sea level)
+- Ends at height 0
+- Each step changes his altitude by 1 unit.
+
+Definitions
+1. Mountain: A sequence of consecutive steps above sea level,
+starting with an uphill step (U) from sea level
+and ending with a downhill step (D) back to sea level.
+2. Valley: A sequence of consecutive steps below sea level,
+starting with a downhill step (D) from sea level
+and ending with an uphill step (U) back to sea level.
+
+Given a string s representing Felix’s steps, determine and print the number of valleys and mountains he walked through.
+
+---
+
+### 📥 Input
+- UDDDUDUU
+### 📤 Output
+- Mountain: 1
+- Valley: 1
+---
