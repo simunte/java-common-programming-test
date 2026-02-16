@@ -1,4 +1,4 @@
-# 💻 5 Common Java Programming Test Examples
+# 💻 6 Common Java Programming Test Examples
 
 This repository contains examples of programming test problems implemented using Java.  
 These exercises focus on logical thinking, problem-solving skills, and basic algorithm techniques.
